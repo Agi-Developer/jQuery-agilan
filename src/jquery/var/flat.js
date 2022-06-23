@@ -1,4 +1,4 @@
-import arr from "./arr.js";
+import arr from "./arr";
 
 // Support: IE 11+
 // IE doesn't have Array#flat; provide a fallback.
