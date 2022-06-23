@@ -1,3 +1,1 @@
-const arr = () => [];
-
-export default arr;
+export default [];

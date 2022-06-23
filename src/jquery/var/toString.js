@@ -1,3 +1,3 @@
-import class2type from "./class2type";
-const toString = () => class2type.toString;
-export default toString;
+import class2type from "./class2type.js";
+
+export default class2type.toString;

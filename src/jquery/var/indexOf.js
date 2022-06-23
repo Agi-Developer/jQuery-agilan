@@ -1,3 +1,3 @@
-import arr from "./arr";
-const indexOf = () => arr.indexOf;
-export default indexOf;
+import arr from "./arr.js";
+
+export default arr.indexOf;

@@ -10,10 +10,8 @@ import hasOwn from "./var/hasOwn";
 import fnToString from "./var/fnToString";
 import ObjectFunctionString from "./var/ObjectFunctionString";
 import support from "./var/support";
-import isFunction from "./var/isFunction";
-import isWindow from "./var/isWindow";
+import isArrayLike from "./core/isArrayLike";
 import DOMEval from "./core/DOMEval";
-import toType from "./core/toType";
 
 var version = "@VERSION",
   rhtmlSuffix = /HTML$/i,

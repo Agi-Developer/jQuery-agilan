@@ -1,4 +1,3 @@
-const isWindow = function (obj) {
+export default function isWindow(obj) {
   return obj != null && obj === obj.window;
-};
-export default isWindow;
+}

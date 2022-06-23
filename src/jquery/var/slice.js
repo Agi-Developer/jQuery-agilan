@@ -1,5 +1,3 @@
-import arr from "./arr";
+import arr from "./arr.js";
 
-const slice = () => arr.slice;
-
-export default slice;
+export default arr.slice;

@@ -1,3 +1,3 @@
-import hasOwn from "./hasOwn";
-const fnToString = () => hasOwn.toString;
-export default fnToString;
+import hasOwn from "./hasOwn.js";
+
+export default hasOwn.toString;

@@ -1,12 +1,11 @@
-import arr from "./arr";
+import arr from "./arr.js";
 
-const flat = () =>
-  arr.flat
-    ? function (array) {
-        return arr.flat.call(array);
-      }
-    : function (array) {
-        return arr.concat.apply([], array);
-      };
-
-export default flat;
+// Support: IE 11+
+// IE doesn't have Array#flat; provide a fallback.
+export default arr.flat
+  ? function (array) {
+      return arr.flat.call(array);
+    }
+  : function (array) {
+      return arr.concat.apply([], array);
+    };

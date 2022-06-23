@@ -1,3 +1,1 @@
-const getProto = () => Object.getPrototypeOf;
-
-export default getProto;
+export default Object.getPrototypeOf;

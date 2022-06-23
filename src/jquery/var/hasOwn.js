@@ -1,3 +1,3 @@
-import class2type from "./class2type";
-const hasOwn = () => class2type.hasOwnProperty;
-export default hasOwn;
+import class2type from "./class2type.js";
+
+export default class2type.hasOwnProperty;

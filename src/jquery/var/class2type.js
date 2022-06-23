@@ -1,2 +1,2 @@
-const class2type = () => {};
-export default class2type;
+// [[Class]] -> type pairs
+export default {};
