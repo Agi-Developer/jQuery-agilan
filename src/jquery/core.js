@@ -15,15 +15,20 @@ import isWindow from "./var/isWindow";
 import DOMEval from "./core/DOMEval";
 import toType from "./core/toType";
 
-const version = "@VERSION";
-
-const jQuery = function (selector, context) {
-  return new jQuery.fn.init(selector, context);
-};
+var version = "@VERSION",
+  rhtmlSuffix = /HTML$/i,
+  jQuery = function (selector, context) {
+    return new jQuery.fn.init(selector, context);
+  };
 
 jQuery.fn = jQuery.prototype = {
   jquery: version,
   constructor: jQuery,
   length: 0
 };
+
+jQuery.extend = jQuery.fn.extend = function () {};
+
+jQuery.extend({});
+
 export default jQuery;
