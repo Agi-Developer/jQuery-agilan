@@ -1,3 +1,4 @@
 import $ from "./jquery/jquery";
-
-console.log($);
+/// Selector
+// 1 empty selector!
+$();
